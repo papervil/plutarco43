@@ -1,0 +1,195 @@
+<svg viewBox="0 -35 850 960" class="w-full max-w-[700px] h-auto select-none">
+  <rect x="-100.0" y="-135.0" width="1050.0" height="1160.0" fill="#ffffff"/>
+          <!-- RÓTULO EXTERIOR DE ORIENTACIÓN SUR (FUERA DEL PLANO) -->
+          <text x="420" y="-12" fill="#0f172a" font-size="13" font-weight="extrabold" text-anchor="middle" letter-spacing="2">▲ ORIENTACIÓN SUR ▲</text>
+
+          <!-- BRÚJULA ARQUITECTÓNICA: SUR, NORTE, ESTE Y OESTE -->
+          <g id="brujula-p1" transform="translate(775, 65)">
+            <circle cx="0" cy="0" r="32" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+            <circle cx="0" cy="0" r="25" fill="none" stroke="#f1f5f9" stroke-width="1"/>
+            <line x1="0" y1="-25" x2="0" y2="-21" stroke="#0f172a" stroke-width="1.5"/>
+            <line x1="0" y1="25" x2="0" y2="21" stroke="#dc2626" stroke-width="1.5"/>
+            <line x1="-25" y1="0" x2="-21" y2="0" stroke="#64748b" stroke-width="1.2"/>
+            <line x1="25" y1="0" x2="21" y2="0" stroke="#64748b" stroke-width="1.2"/>
+            <polygon points="0,0 -2.5,-2 -17,0 0,0" fill="#94a3b8"/>
+            <polygon points="0,0 -2.5,2 -17,0 0,0" fill="#cbd5e1"/>
+            <polygon points="0,0 2.5,-2 17,0 0,0" fill="#cbd5e1"/>
+            <polygon points="0,0 2.5,2 17,0 0,0" fill="#94a3b8"/>
+            <polygon points="0,0 -3,-2.5 0,-21 0,0" fill="#475569"/>
+            <polygon points="0,0 3,-2.5 0,-21 0,0" fill="#0f172a"/>
+            <polygon points="0,0 -3,2.5 0,21 0,0" fill="#b91c1c"/>
+            <polygon points="0,0 3,2.5 0,21 0,0" fill="#dc2626"/>
+            <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#0f172a" stroke-width="1.5"/>
+            <text x="0" y="-36" fill="#0f172a" font-size="11" font-weight="bold" text-anchor="middle">S</text>
+            <text x="0" y="46" fill="#dc2626" font-size="12" font-weight="800" text-anchor="middle">N</text>
+            <text x="-38" y="4" fill="#475569" font-size="10" font-weight="bold" text-anchor="middle">E</text>
+            <text x="38" y="4" fill="#475569" font-size="10" font-weight="bold" text-anchor="middle">O</text>
+          </g>
+
+          <!-- 1. FACHADA SUR: SUITE PRINCIPAL + BAÑO EN SUITE -->
+          <!-- Terraza pequeña suite Sur -->
+          <rect x="420" y="15" width="280" height="49" fill="#f8fafc" stroke="#0f172a" stroke-dasharray="4,3"/>
+          <text x="560" y="42" fill="#0f172a" font-size="11" font-weight="bold" text-anchor="middle">TERRAZA PRIVADA (~3 m²)</text>
+
+          <!-- Muro exterior Sur -->
+          <rect x="120" y="64" width="600" height="16" fill="#0f172a"/>
+
+          <!-- Ventanita pequeña en el Baño en Suite que da al Sur -->
+          <rect x="220" y="64" width="60" height="16" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+          <line x1="220" y1="72" x2="280" y2="72" stroke="#0284c7" stroke-width="1.5"/>
+          <text x="250" y="55" fill="#0284c7" font-size="8" font-weight="bold" text-anchor="middle">Ventana Baño</text>
+
+          <!-- Ventana amplia en el Dormitorio 1 con acceso a terraza privada -->
+          <rect x="460" y="64" width="180" height="16" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+          <line x1="460" y1="72" x2="640" y2="72" stroke="#0284c7" stroke-width="1.5"/>
+          <text x="550" y="55" fill="#0284c7" font-size="8" font-weight="bold" text-anchor="middle">Ventana Amplia / Acceso a Terraza</text>
+          <rect x="120" y="80" width="16" height="566" fill="#0f172a"/>
+          <rect x="704" y="80" width="16" height="646" fill="#0f172a"/>
+
+          <!-- BAÑO 1 EN SUITE (SUR - OESTE, x:136-370, y:80-320) -->
+          <g id="bano-suite-sur">
+            <rect x="136" y="80" width="234" height="230" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+            <!-- Tabique vertical Baño en Suite (dividido para el hueco de puerta) -->
+            <rect x="370" y="80" width="10" height="15" fill="#0f172a"/>
+            <!-- Paso Baño en Suite (Hueco de puerta a espesor completo de tabique) -->
+            <rect x="370" y="95" width="10" height="60" fill="#ffffff"/>
+            <rect x="370" y="155" width="10" height="145" fill="#0f172a"/>
+            <rect x="136" y="300" width="244" height="10" fill="#0f172a"/>
+
+            <text x="250" y="195" fill="#0f172a" font-size="13" font-weight="bold" text-anchor="middle">BAÑO EN SUITE</text>
+            <text x="250" y="218" fill="#64748b" font-size="11" font-mono="true" text-anchor="middle">4,50 m²</text>
+
+            <!-- BAÑERA DEL BAÑO EN SUITE: En el lado opuesto ocupando de pared a pared -->
+            <rect x="142" y="245" width="222" height="50" fill="#ffffff" stroke="#0f172a" stroke-width="1.5" rx="5"/>
+            <text x="253" y="275" fill="#64748b" font-size="10" font-weight="bold" text-anchor="middle">(Bañera)</text>
+
+            <!-- LAVABO: Rotado contra la pared oeste -->
+            <rect x="136" y="95" width="38" height="60" fill="#ffffff" stroke="#0284c7" stroke-width="1.5" rx="4"/>
+            <ellipse cx="155" cy="125" rx="11" ry="16" fill="#e2e8f0"/>
+            <circle cx="155" cy="125" r="2.5" fill="#94a3b8"/>
+            <circle cx="142" cy="125" r="3" fill="#0284c7"/>
+            <text x="165" y="172" fill="#0284c7" font-size="8" font-weight="bold" text-anchor="middle">Lavabo</text>
+          </g>
+
+          <!-- DORMITORIO 1 (SUITE PRINCIPAL • SUR - ESTE, x:380-704, y:80-320) -->
+          <g id="dormitorio-principal-sur">
+            <rect x="380" y="80" width="324" height="230" fill="#f8fafc"/>
+            <!-- Tabique horizontal Suite Principal (dividido para el hueco de puerta) -->
+            <rect x="380" y="300" width="15" height="10" fill="#0f172a"/>
+            <!-- Paso Suite Principal (Hueco de puerta a espesor completo de tabique) -->
+            <rect x="395" y="300" width="60" height="10" fill="#ffffff"/>
+            <rect x="455" y="300" width="249" height="10" fill="#0f172a"/>
+
+            <text x="545" y="180" fill="#0f172a" font-size="15" font-weight="bold" text-anchor="middle">DORMITORIO 1</text>
+            <text x="545" y="202" fill="#0f172a" font-size="13" font-weight="bold" text-anchor="middle">(SUITE PRINCIPAL)</text>
+            <text x="545" y="225" fill="#64748b" font-size="12" font-mono="true" text-anchor="middle">11,00 m²</text>
+          </g>
+
+          <!-- ESCALERA PLANTA PRIMERA (Llega de tabique Sur Y:310 a tabique Norte Y:440 • 175 × 130 px) -->
+          <g id="escalera-rectangular-p1">
+            <rect x="140" y="310" width="175" height="130" rx="3" fill="#fdf2f8" stroke="#dc2626" stroke-width="2.5"/>
+            <!-- Eje longitudinal que separa los dos tramos -->
+            <line x1="140" y1="375" x2="315" y2="375" stroke="#b91c1c" stroke-width="1.5"/>
+            <!-- Peldaños verticales a lo largo de la escalera -->
+            <line x1="160" y1="310" x2="160" y2="440" stroke="#b91c1c" stroke-width="1"/>
+            <line x1="180" y1="310" x2="180" y2="440" stroke="#b91c1c" stroke-width="1"/>
+            <line x1="200" y1="310" x2="200" y2="440" stroke="#b91c1c" stroke-width="1"/>
+            <line x1="220" y1="310" x2="220" y2="440" stroke="#b91c1c" stroke-width="1"/>
+            <line x1="240" y1="310" x2="240" y2="440" stroke="#b91c1c" stroke-width="1"/>
+            <line x1="260" y1="310" x2="260" y2="440" stroke="#b91c1c" stroke-width="1"/>
+            <line x1="280" y1="310" x2="280" y2="440" stroke="#b91c1c" stroke-width="1"/>
+            <line x1="300" y1="310" x2="300" y2="440" stroke="#b91c1c" stroke-width="1"/>
+            <!-- Rótulo único dentro del dibujo -->
+            <rect x="187" y="364" width="80" height="22" rx="4" fill="#ffffff" stroke="#dc2626" stroke-width="1.5"/>
+            <text x="227" y="379" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="middle">ESCALERA</text>
+          </g>
+
+          <!-- DISTRIBUIDOR / PASILLO -->
+          <text x="350" y="385" fill="#64748b" font-size="11" font-weight="bold">DISTRIBUIDOR</text>
+
+          <!-- BAÑO 2 (Interior sin ventanas • BAÑERA PEGADA AL DORMITORIO 1 • LAVABO AL ENTRAR AL FONDO A LA DERECHA) -->
+          <g id="bano-2-interior">
+            <rect x="500" y="310" width="204" height="130" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+            <!-- Tabique vertical Baño 2 (dividido para el hueco de puerta) -->
+            <rect x="490" y="310" width="10" height="55" fill="#0f172a"/>
+            <!-- Paso Baño 2 (Hueco de puerta a espesor completo de tabique) -->
+            <rect x="490" y="365" width="10" height="60" fill="#ffffff"/>
+            <rect x="490" y="425" width="10" height="15" fill="#0f172a"/>
+
+            <!-- Bañera pegada al Dormitorio 1 (en pared superior Y:312-355) -->
+            <rect x="510" y="313" width="170" height="42" fill="#ffffff" stroke="#0f172a" stroke-width="1.5" rx="4"/>
+            <text x="595" y="338" fill="#64748b" font-size="9" font-weight="bold" text-anchor="middle">(Bañera)</text>
+
+            <!-- Lavabo: Más pequeño y completamente pegado a la esquina inferior derecha (X:674 a 704, Y:400 a 440) -->
+            <rect x="674" y="400" width="30" height="40" fill="#ffffff" stroke="#0284c7" stroke-width="1.5" rx="3"/>
+            <ellipse cx="688" cy="420" rx="8.5" ry="12" fill="#e2e8f0"/>
+            <circle cx="688" cy="420" r="2" fill="#94a3b8"/>
+            <circle cx="698" cy="420" r="2.5" fill="#0284c7"/>
+            <text x="650" y="423" fill="#0284c7" font-size="8" font-weight="bold" text-anchor="middle">Lavabo</text>
+
+            <text x="560" y="388" fill="#0f172a" font-size="12" font-weight="bold" text-anchor="middle">BAÑO 2</text>
+            <text x="560" y="408" fill="#64748b" font-size="10" font-mono="true" text-anchor="middle">4,00 m²</text>
+          </g>
+
+          <!-- 3. FACHADA NORTE: DORMITORIOS NORTE -->
+          <!-- Tabique horizontal que separa distribuidor y Baño 2 de los dormitorios Norte (dividido con huecos de puerta a espesor completo) -->
+          <rect x="136" y="440" width="194" height="10" fill="#0f172a"/>
+          <!-- Paso Dormitorio 3 (Hueco a espesor completo de tabique) -->
+          <rect x="330" y="440" width="60" height="10" fill="#ffffff"/>
+          <rect x="390" y="440" width="40" height="10" fill="#0f172a"/>
+          <!-- Paso Dormitorio 2 (Hueco a espesor completo de tabique) -->
+          <rect x="430" y="440" width="60" height="10" fill="#ffffff"/>
+          <rect x="490" y="440" width="214" height="10" fill="#0f172a"/>
+          <!-- Muro vertical divisorio entre dorm 3 y dorm 2 (Interior hasta Y:630) -->
+          <rect x="415" y="440" width="10" height="190" fill="#0f172a"/>
+
+          <!-- DORMITORIO 3 (Oeste • Termina en Y:630 en fachada Norte estándar) -->
+          <g id="dormitorio-3-norte">
+            <rect x="136" y="450" width="279" height="180" fill="#f8fafc"/>
+            
+            <!-- FACHADA NORTE DORMITORIO 3 (Muro exterior completo de 16px: X:120 a 425) -->
+            <rect x="120" y="630" width="305" height="16" fill="#0f172a"/>
+            <!-- Ventana Dormitorio 3 (130 px, a espesor completo de muro 16px) -->
+            <rect x="210" y="630" width="130" height="16" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+            <line x1="210" y1="638" x2="340" y2="638" stroke="#0284c7" stroke-width="1.5"/>
+            <line x1="275" y1="630" x2="275" y2="646" stroke="#0284c7" stroke-width="1.5"/>
+
+            <text x="275" y="545" fill="#0f172a" font-size="14" font-weight="bold" text-anchor="middle">DORMITORIO 3</text>
+            <text x="275" y="570" fill="#64748b" font-size="12" font-mono="true" text-anchor="middle">10,00 m²</text>
+          </g>
+
+          <!-- DORMITORIO 2 (Este • NORTE • MÁS LARGO: SOBRESALE HACIA EL NORTE) -->
+          <g id="dormitorio-2-norte-largo">
+            <!-- Suelo interior Dormitorio 2 -->
+            <rect x="425" y="450" width="279" height="260" fill="#f8fafc"/>
+            
+            <!-- QUIEBRO DE FACHADA OESTE DORMITORIO 2 (Muro exterior que une la fachada de Dorm 3 con la de Dorm 2: Y:630 a 726) -->
+            <rect x="409" y="630" width="16" height="96" fill="#0f172a"/>
+
+            <!-- FACHADA NORTE DORMITORIO 2 (Muro exterior completo de 16px: X:409 a 720) -->
+            <rect x="409" y="710" width="311" height="16" fill="#0f172a"/>
+            <!-- Ventanal / Puerta a la terraza del Dormitorio 2 (140 px, a espesor completo de muro 16px) -->
+            <rect x="495" y="710" width="140" height="16" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+            <line x1="495" y1="718" x2="635" y2="718" stroke="#0284c7" stroke-width="1.5"/>
+            <line x1="565" y1="710" x2="565" y2="726" stroke="#0284c7" stroke-width="1.5"/>
+
+            <text x="565" y="555" fill="#0f172a" font-size="15" font-weight="bold" text-anchor="middle">DORMITORIO 2</text>
+            <text x="565" y="580" fill="#64748b" font-size="12" font-mono="true" text-anchor="middle">14,00 m²</text>
+
+            <!-- TERRAZA NORTE DEL DORMITORIO 2 (8 m²) -->
+            <rect x="425" y="726" width="279" height="145" fill="#f0fdf4" stroke="#16a34a" stroke-width="2" stroke-dasharray="5,4" rx="6"/>
+            <text x="565" y="775" fill="#15803d" font-size="13" font-weight="extrabold" text-anchor="middle">TERRAZA PRIVADA DORM. 2</text>
+            <text x="565" y="800" fill="#0f172a" font-size="14" font-mono="true" font-weight="bold" text-anchor="middle">8,00 m²</text>
+            <text x="565" y="822" fill="#15803d" font-size="10" font-weight="bold" text-anchor="middle">Vistas a Jardines y Piscinas</text>
+          </g>
+
+          <!-- COTAS DE COMPARACIÓN DE LONGITUD DORM 3 vs DORM 2 -->
+          <line x1="100" y1="450" x2="100" y2="646" stroke="#94a3b8" stroke-width="1.5" marker-start="url(#cota-tick)" marker-end="url(#cota-tick)"/>
+          <text x="90" y="550" fill="#64748b" font-size="9" font-mono="true" text-anchor="middle" transform="rotate(-90 90 550)">Largo Dorm 3</text>
+
+          <line x1="735" y1="450" x2="735" y2="726" stroke="#dc2626" stroke-width="1.5" marker-start="url(#cota-tick)" marker-end="url(#cota-tick)"/>
+          <text x="750" y="585" fill="#dc2626" font-size="9" font-mono="true" font-weight="bold" text-anchor="middle" transform="rotate(90 750 585)">Largo Dorm 2 (Sobresale)</text>
+
+          <!-- RÓTULO EXTERIOR DE ORIENTACIÓN NORTE (FUERA DEL PLANO) -->
+          <text x="420" y="905" fill="#dc2626" font-size="13" font-weight="extrabold" text-anchor="middle" letter-spacing="2">▼ ORIENTACIÓN NORTE ▼</text>
+        </svg>
